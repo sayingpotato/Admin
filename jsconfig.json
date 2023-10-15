@@ -1,0 +1,10 @@
+{
+   "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+         "api/*": ["src/api/*"],
+         "hooks/*": ["src/hooks/*"],
+         "service/*": ["service/*"]
+      }
+   }
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+KR&display=swap");
+
+img {
+   border: 1.5px solid #b0b0b0;
+   border-radius: 2rem;
+   width: 400px;
+   height: 200px;
+}
+
+/* 최상단 부분 css */
+.topview {
+   border-bottom: 1px solid #b0b0b0;
+   padding: 10px 20px;
+}
+
+.topview_text {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* 텍스트 크기 */
+
+/* 기본적으로 10px 고정 */
+* {
+   font-size: 10px;
+}
+
+/* 굵은 글씨 */
+.text_bold {
+   font-size: 13px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+/* 밑줄 */
+.underline-text {
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-offset: 2.5px;
+}
+
+/* 패딩 */
+
+/* 컴포넌트간 패딩 및 마진 */
+.pad {
+   padding: 20px;
+   margin: 10px;
+}
+
+/* 마진만 */
+
+.mar {
+   margin-bottom: 30px;
+}
+.mar_acc_a {
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.mar_acc {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+/* span 패딩 */
+.pad_first_span {
+   margin-right: 1px;
+}
+
+.button-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.button-container_b {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.button-container_b button {
+   background-color: #28469c;
+}
+
+/* div간 마진 */
+.margin_div {
+   margin: 20px;
+}
+
+/* 배경색 및 크기 조정 */
+
+.back_accept {
+   background-color: #ceddfc;
+   border-radius: 2rem;
+   margin: 20px;
+}
+
+.back_deny {
+   background-color: #ffe1e1;
+   border-radius: 2rem;
+   margin: 20px;
+}
